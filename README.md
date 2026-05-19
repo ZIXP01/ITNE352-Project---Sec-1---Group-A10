@@ -35,6 +35,21 @@ Zainab Taha Mohammed Al-Naham 202305105 @ZIXP01
         @rawanread
 
 ---
+## Team Contributions
+
+### Zainab's work
+
+* Implemented the client-side application
+* Designed menus and user interaction
+* Implemented display functions
+* Handled client requests and responses
+
+### Rawan's work 
+
+* Implemented the server-side application
+* Managed API communication
+* Implemented multithreading
+* Implemented caching and JSON storage
 
 ## Requirements
 
