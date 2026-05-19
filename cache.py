@@ -9,4 +9,7 @@ self.ingredients = []
  # Base API URL
 self.base_url = "https://www.themealdb.com/api/json/v1/1"
 def load_cache(self):
- 
+ """ Load reference data from TheMealDB API """
+ print("Loading reference cache...")
+  self.categories = self.get_categories()
+   self.areas = self.get_areas()
