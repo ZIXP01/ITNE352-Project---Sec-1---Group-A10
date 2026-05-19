@@ -173,6 +173,23 @@ else:
 response = receive_response(client_socket)
 display_categories(response)
 
+ # Areas
+
+elif reference_choice == "2":
+  send_request(client_socket, {
+     "type": "areas"
+                    })
+
+response = receive_response(client_socket)
+display_areas(response)
+# Ingredients
+                elif reference_choice == "3":
+                    send_request(client_socket, {
+                        "type": "ingredients"
+                    })
+response = receive_response(client_socket)
+display_ingredients(response)
+
 
 
 
