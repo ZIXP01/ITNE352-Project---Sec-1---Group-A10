@@ -18,3 +18,6 @@ for meal in meals:
         print(f"Thumbnail: {meal.get('strMealThumb')}")
         print("------------------------------")
 
+# Display full recipe details
+
+
