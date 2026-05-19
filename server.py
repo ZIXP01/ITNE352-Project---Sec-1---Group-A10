@@ -78,3 +78,16 @@ response = {
    response = {
    "areas": reference_cache["areas"]
                 }
+ # Ingredients from cache
+    elif request_type == "ingredients":
+      response = {
+     "ingredients": reference_cache["ingredients"][:50]
+                }
+   # Invalid request
+     else:
+response = {
+ "error": "Invalid request type"
+                }
+  # Send response to client
+  client_socket.send(json.dumps(response).encode())
+    except Exception as error:
