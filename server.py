@@ -22,8 +22,13 @@ def handle_client(client_socket, address):
  try:
   # Receive client name
    client_name = client_socket.recv(1024).decode()
-        print(f"Client connected: {client_name}")
-        while True:
-            # Receive request from client
-            request_data = client_socket.recv(4096).decode()
-            if not request_data:
+    print(f"Client connected: {client_name}")
+     while True:
+     # Receive request from client
+     request_data = client_socket.recv(4096).decode()
+  if not request_data:
+ break
+# Convert JSON string to Python dictionary
+ request = json.loads(request_data)
+ request_type = request.get("type")
+response = {}
