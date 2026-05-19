@@ -121,6 +121,26 @@ send_request(client_socket, {
 details = receive_response(client_socket)
 display_recipe_details(details)
 
+# Filter by ingredient
+
+elif recipe_choice == "4":
+
+                    ingredient = input("Enter ingredient: ")
+
+                    send_request(client_socket, {
+                        "type": "filter_ingredient",
+                        "ingredient": ingredient
+                    })
+response = receive_response(client_socket)
+display_recipe_list(response)
+
+ meal_id = input("Enter Meal ID for full details: ")
+
+send_request(client_socket, {
+                        "type": "meal_details",
+                        "meal_id": meal_id
+                    })
+
 
 
 
