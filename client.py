@@ -103,4 +103,17 @@ meal_id = input("Enter Meal ID for full details: ")
 details = receive_response(client_socket)
 display_recipe_details(details)
 
+# Filter by area
+
+elif recipe_choice == "3":
+                    area = input("Enter area/cuisine: ")
+                    send_request(client_socket, {
+                        "type": "filter_area",
+                        "area": area
+                    })
+response = receive_response(client_socket)
+display_recipe_list(response)
+meal_id = input("Enter Meal ID for full details: ")
+
+
 
