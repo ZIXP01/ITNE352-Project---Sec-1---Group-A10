@@ -106,3 +106,8 @@ server.bind((HOST, PORT))
 server.listen(5)
 print(f"Server is running on port {PORT}...")
 # Accept clients forever
+while True:
+    client_socket, address = server.accept()
+    # Create thread for each client
+    client_thread = threading.Thread(
+       target=handle_client,
