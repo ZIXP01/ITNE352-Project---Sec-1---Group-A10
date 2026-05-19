@@ -6,3 +6,4 @@ def __init__(self):
 self.categories = []
 self.areas = []
 self.ingredients = []
+
