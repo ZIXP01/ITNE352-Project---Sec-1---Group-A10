@@ -37,3 +37,9 @@ response = {}
    keyword = request.get("keyword")
     meals = search_by_name(keyword)
     response = {
+ "meals": meals[:15]
+                }
+# Filter by category
+  elif request_type == "filter_category":
+category = request.get("category")
+ meals = filter_by_category(category)
