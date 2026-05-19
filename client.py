@@ -11,3 +11,14 @@ from display import (
     display_areas,
     display_ingredients
 )
+
+# Server configuration
+def send_request(client_socket, request_data):
+    """
+    Convert Python dictionary to JSON
+    and send it to the server.
+    """
+    request_json = json.dumps(request_data)
+    client_socket.send(request_json.encode())
+
+
