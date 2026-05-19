@@ -11,7 +11,7 @@ import struct
 #CONSTANTS 
 HOST = "0.0.0.0"
 PORT = 5555
-GROUP_ID = "GROUP_12"
+GROUP_ID = "GROUP_10"
 URL = "https://www.themealdb.com/api/json/v1/1/"
 
 # Lock only needed for console output (shared write resource)
