@@ -3,12 +3,6 @@
 import socket
 import json
 
-"""
-Recipe Discovery System - Client Script
-ITNE352: Network Programming, S2 2025-2026
-Group: G12: SAYDAH ALWARD-202402042, ZABIBA AHMED-202404853
-"""
-
 # importing required packages for the client side
 import socket
 import json
