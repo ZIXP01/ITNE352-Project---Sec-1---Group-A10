@@ -32,3 +32,8 @@ def handle_client(client_socket, address):
  request = json.loads(request_data)
  request_type = request.get("type")
 response = {}
+# Search by recipe name
+ if request_type == "search_name":
+   keyword = request.get("keyword")
+    meals = search_by_name(keyword)
+    response = {
