@@ -98,6 +98,11 @@ response = {
     except Exception as error:
  print("Error:", error)
     finally:
-        print(f"Client disconnected: {client_name}")
-        client_socket.close()
+    print(f"Client disconnected: {client_name}")
+    client_socket.close()
 # Create TCP server socket
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server.bind((HOST, PORT))
+server.listen(5)
+print(f"Server is running on port {PORT}...")
+# Accept clients forever
