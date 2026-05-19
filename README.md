@@ -119,10 +119,3 @@ python client.py
 ## Conclusion
 
 This project demonstrates the implementation of a client-server architecture using Python sockets, APIs, JSON, and multithreading.
-
----
-
-## Acknowledgments
-
-* University of Bahrain
-* TheMealDB API
