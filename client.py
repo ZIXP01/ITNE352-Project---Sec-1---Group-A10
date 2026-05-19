@@ -140,6 +140,25 @@ send_request(client_socket, {
                         "type": "meal_details",
                         "meal_id": meal_id
                     })
+details = receive_response(client_socket)
+display_recipe_details(details)
+
+ # Random recipe
+
+ elif recipe_choice == "5":
+                    send_request(client_socket, {
+                        "type": "random_recipe"
+                    })
+response = receive_response(client_socket)
+display_recipe_details(response)
+      
+# Back
+            
+elif recipe_choice == "6":
+ break
+else:
+  print("Invalid option.\n")
+
 
 
 
