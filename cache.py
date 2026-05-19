@@ -65,3 +65,8 @@ return []
   print("reference_A10.json saved successfully.")
   except Exception as error:
   print(f"Error saving reference file: {error}")
+ def get_reference_list(self, request_type):
+ """  Return cached reference data """
+ if request_type == "categories":
+  return self.categories
+
