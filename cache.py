@@ -34,3 +34,7 @@ try:
  response = requests.get(url)
   data = response.json()
 return [item["strArea"] for item in data["meals"]]
+except Exception as error:
+print(f"Error loading areas: {error}")
+ return []
+def get_ingredients(self):
