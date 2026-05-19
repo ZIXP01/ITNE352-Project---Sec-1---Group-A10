@@ -74,3 +74,4 @@ return []
 elif request_type == "ingredients":
 # Limit ingredients to 50 for display
  return self.ingredients[:50]
+return []
