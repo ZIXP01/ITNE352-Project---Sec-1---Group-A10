@@ -89,21 +89,12 @@ python client.py
 
 ---
 
-## Project Files
+## Project ScreenShots
 
-### Client Files
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/16d7aab4-0a52-4407-91d2-a09120c41a54" />
 
-* client.py → Main client program
-* menus.py → Client menus
-* display.py → Display functions
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/1c4c47fc-f468-43f5-bdbd-0dcd18300910" />
 
-### Server Files
-
-* server.py → Main server program
-* api_handler.py → API requests
-* cache.py → Reference cache handling
-
----
 
 ## Features
 
