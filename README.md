@@ -31,8 +31,7 @@ Course: ITNE352 Network Programming
 
 Group Members:
 
-* Student 1 Name + ID
-* Student 2 Name + ID
+Zainab Taha Mohammed Al-Naham 202305105
 
 ---
 
