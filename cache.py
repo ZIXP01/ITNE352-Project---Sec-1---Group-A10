@@ -48,3 +48,6 @@ return [
  for item in data["meals"]
  if item["strIngredient"]
             ]
+ except Exception as error:
+print(f"Error loading ingredients: {error}")
+return []
