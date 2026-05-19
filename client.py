@@ -159,6 +159,20 @@ elif recipe_choice == "6":
 else:
   print("Invalid option.\n")
 
+# Reference Lists
+        elif choice == "2":
+            while True:
+                reference_choice = reference_menu()
+
+# Categories
+                if reference_choice == "1":
+                    send_request(client_socket, {
+                        "type": "categories"
+                    })
+
+response = receive_response(client_socket)
+display_categories(response)
+
 
 
 
