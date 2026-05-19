@@ -42,3 +42,9 @@ def get_ingredients(self):
 url = f"{self.base_url}/list.php?i=list"
 try:
  response = requests.get(url)
+ data = response.json()
+return [
+ item["strIngredient"]
+ for item in data["meals"]
+ if item["strIngredient"]
+            ]
