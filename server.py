@@ -319,8 +319,6 @@ def main():
                 daemon=True
             )
             thread.start()
-        
-
     except KeyboardInterrupt:
         safe_print("SERVER shutting down ... ")
 
