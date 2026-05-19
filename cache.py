@@ -22,6 +22,10 @@ def load_cache(self):
  url = f"{self.base_url}/list.php?c=list"
  try:
   response = requests.get(url)
-   data = response.json()
-   return [item["strCategory"] for item in data["meals"]]
-   except Exception as error:
+  data = response.json()
+return [item["strCategory"] for item in data["meals"]]
+except Exception as error:
+print(f"Error loading categories: {error}")
+  return []
+def get_areas(self):
+ """ Fetch meal areas/cuisines from API """
