@@ -48,3 +48,8 @@ response = {   "meals": meals[:15]       }
  elif request_type == "filter_area":
  area = request.get("area")
 meals = filter_by_area(area)
+response = {  "meals": meals[:15]}
+     # Filter by ingredient
+      elif request_type == "filter_ingredient":
+       ingredient = request.get("ingredient")
+       meals = filter_by_ingredient(ingredient)
