@@ -69,4 +69,8 @@ return []
  """  Return cached reference data """
  if request_type == "categories":
   return self.categories
-
+ elif request_type == "areas":
+  return self.areas
+elif request_type == "ingredients":
+# Limit ingredients to 50 for display
+ return self.ingredients[:50]
