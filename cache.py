@@ -20,4 +20,8 @@ def load_cache(self):
  def get_categories(self):
   """ Fetch meal categories from API """
  url = f"{self.base_url}/list.php?c=list"
-
+ try:
+  response = requests.get(url)
+   data = response.json()
+   return [item["strCategory"] for item in data["meals"]]
+   except Exception as error:
