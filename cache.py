@@ -13,3 +13,7 @@ def load_cache(self):
  print("Loading reference cache...")
   self.categories = self.get_categories()
    self.areas = self.get_areas()
+ self.ingredients = self.get_ingredients()
+  # Save data into JSON file
+  self.save_reference_file()
+  print("Reference cache loaded successfully.")
