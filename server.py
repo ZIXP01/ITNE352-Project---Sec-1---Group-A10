@@ -64,3 +64,17 @@ response = {
 # Full recipe details
  elif request_type == "lookup_meal":
    meal_id = request.get("meal_id")
+ meals = lookup_by_id(meal_id)
+    response = {
+        "meals": meals
+    }
+ # Categories from cache
+  elif request_type == "categories":
+response = {
+  "categories": reference_cache["categories"]
+                }
+ # Areas from cache
+   elif request_type == "areas":
+   response = {
+   "areas": reference_cache["areas"]
+                }
