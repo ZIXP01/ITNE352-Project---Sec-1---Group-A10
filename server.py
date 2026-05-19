@@ -70,6 +70,11 @@ response = {
     }
  # Categories from cache
   elif request_type == "categories":
+ print("Error:", error)
+    finally:
+        print(f"Client disconnected: {client_name}")
+        client_socket.close()
+# Create TCP server socket
 response = {
   "categories": reference_cache["categories"]
                 }
@@ -91,3 +96,8 @@ response = {
   # Send response to client
   client_socket.send(json.dumps(response).encode())
     except Exception as error:
+ print("Error:", error)
+    finally:
+        print(f"Client disconnected: {client_name}")
+        client_socket.close()
+# Create TCP server socket
