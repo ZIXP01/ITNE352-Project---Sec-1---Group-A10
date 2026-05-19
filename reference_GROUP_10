@@ -1,0 +1,785 @@
+{
+  "categories": [
+    {
+      "strCategory": "Beef"
+    },
+    {
+      "strCategory": "Breakfast"
+    },
+    {
+      "strCategory": "Chicken"
+    },
+    {
+      "strCategory": "Dessert"
+    },
+    {
+      "strCategory": "Goat"
+    },
+    {
+      "strCategory": "Lamb"
+    },
+    {
+      "strCategory": "Miscellaneous"
+    },
+    {
+      "strCategory": "Pasta"
+    },
+    {
+      "strCategory": "Pork"
+    },
+    {
+      "strCategory": "Seafood"
+    },
+    {
+      "strCategory": "Side"
+    },
+    {
+      "strCategory": "Starter"
+    },
+    {
+      "strCategory": "Vegan"
+    },
+    {
+      "strCategory": "Vegetarian"
+    }
+  ],
+  "areas": [
+    {
+      "strArea": "Afghan"
+    },
+    {
+      "strArea": "Albanian"
+    },
+    {
+      "strArea": "Algerian"
+    },
+    {
+      "strArea": "Andorran"
+    },
+    {
+      "strArea": "Angolan"
+    },
+    {
+      "strArea": "Antiguan, Barbudan"
+    },
+    {
+      "strArea": "Argentine"
+    },
+    {
+      "strArea": "Armenian"
+    },
+    {
+      "strArea": "Aruban"
+    },
+    {
+      "strArea": "Australian"
+    },
+    {
+      "strArea": "Austrian"
+    },
+    {
+      "strArea": "Azerbaijani"
+    },
+    {
+      "strArea": "Bahamian"
+    },
+    {
+      "strArea": "Bahraini"
+    },
+    {
+      "strArea": "Bangladeshi"
+    },
+    {
+      "strArea": "Barbadian"
+    },
+    {
+      "strArea": "Belarusian"
+    },
+    {
+      "strArea": "Belgian"
+    },
+    {
+      "strArea": "Belizean"
+    },
+    {
+      "strArea": "Beninese"
+    },
+    {
+      "strArea": "Bermudian"
+    },
+    {
+      "strArea": "Bhutanese"
+    },
+    {
+      "strArea": "Bolivian"
+    },
+    {
+      "strArea": "Bosnian, Herzegovinian"
+    },
+    {
+      "strArea": "Motswana"
+    },
+    {
+      "strArea": "Brazilian"
+    },
+    {
+      "strArea": "Bruneian"
+    },
+    {
+      "strArea": "Bulgarian"
+    },
+    {
+      "strArea": "Burkinabe"
+    },
+    {
+      "strArea": "Burundian"
+    },
+    {
+      "strArea": "Cambodian"
+    },
+    {
+      "strArea": "Cameroonian"
+    },
+    {
+      "strArea": "Canadian"
+    },
+    {
+      "strArea": "Cape Verdian"
+    },
+    {
+      "strArea": "Caymanian"
+    },
+    {
+      "strArea": "Central African"
+    },
+    {
+      "strArea": "Chadian"
+    },
+    {
+      "strArea": "Chilean"
+    },
+    {
+      "strArea": "Chinese"
+    },
+    {
+      "strArea": "Colombian"
+    },
+    {
+      "strArea": "Costa Rican"
+    },
+    {
+      "strArea": "Croatian"
+    },
+    {
+      "strArea": "Cuban"
+    },
+    {
+      "strArea": "Cypriot"
+    },
+    {
+      "strArea": "Czech"
+    },
+    {
+      "strArea": "Danish"
+    },
+    {
+      "strArea": "Djibouti"
+    },
+    {
+      "strArea": "Dominican"
+    },
+    {
+      "strArea": "Dominican"
+    },
+    {
+      "strArea": "Congolese"
+    },
+    {
+      "strArea": "Ecuadorean"
+    },
+    {
+      "strArea": "Egyptian"
+    },
+    {
+      "strArea": "Salvadoran"
+    },
+    {
+      "strArea": "Equatorial Guinean"
+    },
+    {
+      "strArea": "Eritrean"
+    },
+    {
+      "strArea": "Estonian"
+    },
+    {
+      "strArea": "Ethiopian"
+    },
+    {
+      "strArea": "Faroese"
+    },
+    {
+      "strArea": "Fijian"
+    },
+    {
+      "strArea": "Finnish"
+    },
+    {
+      "strArea": "French"
+    },
+    {
+      "strArea": "Gabonese"
+    },
+    {
+      "strArea": "Gambian"
+    },
+    {
+      "strArea": "Georgian"
+    },
+    {
+      "strArea": "German"
+    },
+    {
+      "strArea": "Ghanaian"
+    },
+    {
+      "strArea": "Gibraltar"
+    },
+    {
+      "strArea": "Greek"
+    },
+    {
+      "strArea": "Greenlandic"
+    },
+    {
+      "strArea": "Grenadian"
+    },
+    {
+      "strArea": "Guadeloupian"
+    },
+    {
+      "strArea": "Guamanian"
+    },
+    {
+      "strArea": "Guatemalan"
+    },
+    {
+      "strArea": "Channel Islander"
+    },
+    {
+      "strArea": "Guinean"
+    },
+    {
+      "strArea": "Guinea-Bissauan"
+    },
+    {
+      "strArea": "Guyanese"
+    },
+    {
+      "strArea": "Haitian"
+    },
+    {
+      "strArea": "Honduran"
+    },
+    {
+      "strArea": "Hong Konger"
+    },
+    {
+      "strArea": "Hungarian"
+    },
+    {
+      "strArea": "Icelander"
+    },
+    {
+      "strArea": "Indian"
+    },
+    {
+      "strArea": "Indonesian"
+    },
+    {
+      "strArea": "Iranian"
+    },
+    {
+      "strArea": "Iraqi"
+    },
+    {
+      "strArea": "Irish"
+    },
+    {
+      "strArea": "Israeli"
+    },
+    {
+      "strArea": "Italian"
+    },
+    {
+      "strArea": "Ivorian"
+    },
+    {
+      "strArea": "Jamaican"
+    },
+    {
+      "strArea": "Japanese"
+    },
+    {
+      "strArea": "Channel Islander"
+    },
+    {
+      "strArea": "Jordanian"
+    },
+    {
+      "strArea": "Kazakhstani"
+    },
+    {
+      "strArea": "Kenyan"
+    },
+    {
+      "strArea": "Kosovar"
+    },
+    {
+      "strArea": "Kuwaiti"
+    },
+    {
+      "strArea": "Kirghiz"
+    },
+    {
+      "strArea": "Laotian"
+    },
+    {
+      "strArea": "Latvian"
+    },
+    {
+      "strArea": "Lebanese"
+    },
+    {
+      "strArea": "Mosotho"
+    },
+    {
+      "strArea": "Liberian"
+    },
+    {
+      "strArea": "Libyan"
+    },
+    {
+      "strArea": "Liechtensteiner"
+    },
+    {
+      "strArea": "Lithuanian"
+    },
+    {
+      "strArea": "Luxembourger"
+    },
+    {
+      "strArea": "Malagasy"
+    },
+    {
+      "strArea": "Malawian"
+    },
+    {
+      "strArea": "Malaysian"
+    },
+    {
+      "strArea": "Maldivan"
+    },
+    {
+      "strArea": "Malian"
+    },
+    {
+      "strArea": "Maltese"
+    },
+    {
+      "strArea": "Mauritian"
+    },
+    {
+      "strArea": "Mexican"
+    },
+    {
+      "strArea": "Moldovan"
+    },
+    {
+      "strArea": "Mongolian"
+    },
+    {
+      "strArea": "Montenegrin"
+    },
+    {
+      "strArea": "Moroccan"
+    },
+    {
+      "strArea": "Mozambican"
+    },
+    {
+      "strArea": "Burmese"
+    },
+    {
+      "strArea": "Namibian"
+    },
+    {
+      "strArea": "Nepalese"
+    },
+    {
+      "strArea": "Dutch"
+    },
+    {
+      "strArea": "New Zealander"
+    },
+    {
+      "strArea": "Nicaraguan"
+    },
+    {
+      "strArea": "Nigerien"
+    },
+    {
+      "strArea": "Nigerian"
+    },
+    {
+      "strArea": "North Korean"
+    },
+    {
+      "strArea": "Macedonian"
+    },
+    {
+      "strArea": "Norwegian"
+    },
+    {
+      "strArea": "Omani"
+    },
+    {
+      "strArea": "Pakistani"
+    },
+    {
+      "strArea": "Palestinian"
+    },
+    {
+      "strArea": "Panamanian"
+    },
+    {
+      "strArea": "Papua New Guinean"
+    },
+    {
+      "strArea": "Paraguayan"
+    },
+    {
+      "strArea": "Peruvian"
+    },
+    {
+      "strArea": "Filipino"
+    },
+    {
+      "strArea": "Polish"
+    },
+    {
+      "strArea": "Portuguese"
+    },
+    {
+      "strArea": "Puerto Rican"
+    },
+    {
+      "strArea": "Qatari"
+    },
+    {
+      "strArea": "Congolese"
+    },
+    {
+      "strArea": "Romanian"
+    },
+    {
+      "strArea": "Russian"
+    },
+    {
+      "strArea": "Rwandan"
+    },
+    {
+      "strArea": "Saint Lucian"
+    },
+    {
+      "strArea": "Samoan"
+    },
+    {
+      "strArea": "Sammarinese"
+    },
+    {
+      "strArea": "Saudi Arabian"
+    },
+    {
+      "strArea": "Senegalese"
+    },
+    {
+      "strArea": "Serbian"
+    },
+    {
+      "strArea": "Seychellois"
+    },
+    {
+      "strArea": "Sierra Leonean"
+    },
+    {
+      "strArea": "Singaporean"
+    },
+    {
+      "strArea": "Slovak"
+    },
+    {
+      "strArea": "Slovene"
+    },
+    {
+      "strArea": "Solomon Islander"
+    },
+    {
+      "strArea": "Somali"
+    },
+    {
+      "strArea": "South African"
+    },
+    {
+      "strArea": "South Korean"
+    },
+    {
+      "strArea": "South Sudanese"
+    },
+    {
+      "strArea": "Spanish"
+    },
+    {
+      "strArea": "Sri Lankan"
+    },
+    {
+      "strArea": "Sudanese"
+    },
+    {
+      "strArea": "Surinamer"
+    },
+    {
+      "strArea": "Swedish"
+    },
+    {
+      "strArea": "Swiss"
+    },
+    {
+      "strArea": "Syrian"
+    },
+    {
+      "strArea": "Taiwanese"
+    },
+    {
+      "strArea": "Tadzhik"
+    },
+    {
+      "strArea": "Tanzanian"
+    },
+    {
+      "strArea": "Thai"
+    },
+    {
+      "strArea": "Togolese"
+    },
+    {
+      "strArea": "Tongan"
+    },
+    {
+      "strArea": "Trinidadian"
+    },
+    {
+      "strArea": "Tunisian"
+    },
+    {
+      "strArea": "Turkish"
+    },
+    {
+      "strArea": "Turkmen"
+    },
+    {
+      "strArea": "Tuvaluan"
+    },
+    {
+      "strArea": "Ugandan"
+    },
+    {
+      "strArea": "Ukrainian"
+    },
+    {
+      "strArea": "Emirati"
+    },
+    {
+      "strArea": "British"
+    },
+    {
+      "strArea": "American"
+    },
+    {
+      "strArea": "Uruguayan"
+    },
+    {
+      "strArea": "Uzbekistani"
+    },
+    {
+      "strArea": "Ni-Vanuatu"
+    },
+    {
+      "strArea": "Venezuelan"
+    },
+    {
+      "strArea": "Vietnamese"
+    },
+    {
+      "strArea": "Yemeni"
+    },
+    {
+      "strArea": "Zambian"
+    },
+    {
+      "strArea": "Zimbabwean"
+    }
+  ],
+  "ingredients": [
+    {
+      "strIngredient": "Chicken"
+    },
+    {
+      "strIngredient": "Salmon"
+    },
+    {
+      "strIngredient": "Beef"
+    },
+    {
+      "strIngredient": "Pork"
+    },
+    {
+      "strIngredient": "Avocado"
+    },
+    {
+      "strIngredient": "Apple Cider Vinegar"
+    },
+    {
+      "strIngredient": "Asparagus"
+    },
+    {
+      "strIngredient": "Aubergine"
+    },
+    {
+      "strIngredient": "Baby Plum Tomatoes"
+    },
+    {
+      "strIngredient": "Bacon"
+    },
+    {
+      "strIngredient": "Baking Powder"
+    },
+    {
+      "strIngredient": "Balsamic Vinegar"
+    },
+    {
+      "strIngredient": "Basil"
+    },
+    {
+      "strIngredient": "Basil Leaves"
+    },
+    {
+      "strIngredient": "Basmati Rice"
+    },
+    {
+      "strIngredient": "Bay Leaf"
+    },
+    {
+      "strIngredient": "Bay Leaves"
+    },
+    {
+      "strIngredient": "Beef Brisket"
+    },
+    {
+      "strIngredient": "Beef Fillet"
+    },
+    {
+      "strIngredient": "Beef Gravy"
+    },
+    {
+      "strIngredient": "Beef Stock"
+    },
+    {
+      "strIngredient": "Bicarbonate Of Soda"
+    },
+    {
+      "strIngredient": "Biryani Masala"
+    },
+    {
+      "strIngredient": "Black Pepper"
+    },
+    {
+      "strIngredient": "Black Treacle"
+    },
+    {
+      "strIngredient": "Borlotti Beans"
+    },
+    {
+      "strIngredient": "Bowtie Pasta"
+    },
+    {
+      "strIngredient": "Bramley Apples"
+    },
+    {
+      "strIngredient": "Brandy"
+    },
+    {
+      "strIngredient": "Bread"
+    },
+    {
+      "strIngredient": "Breadcrumbs"
+    },
+    {
+      "strIngredient": "Broccoli"
+    },
+    {
+      "strIngredient": "Brown Lentils"
+    },
+    {
+      "strIngredient": "Brown Rice"
+    },
+    {
+      "strIngredient": "Brown Sugar"
+    },
+    {
+      "strIngredient": "Butter"
+    },
+    {
+      "strIngredient": "Cacao"
+    },
+    {
+      "strIngredient": "Cajun"
+    },
+    {
+      "strIngredient": "Canned Tomatoes"
+    },
+    {
+      "strIngredient": "Cannellini Beans"
+    },
+    {
+      "strIngredient": "Cardamom"
+    },
+    {
+      "strIngredient": "Carrots"
+    },
+    {
+      "strIngredient": "Cashew Nuts"
+    },
+    {
+      "strIngredient": "Cashews"
+    },
+    {
+      "strIngredient": "Caster Sugar"
+    },
+    {
+      "strIngredient": "Cayenne Pepper"
+    },
+    {
+      "strIngredient": "Celeriac"
+    },
+    {
+      "strIngredient": "Celery"
+    },
+    {
+      "strIngredient": "Celery Salt"
+    },
+    {
+      "strIngredient": "Challots"
+    }
+  ]
+}
