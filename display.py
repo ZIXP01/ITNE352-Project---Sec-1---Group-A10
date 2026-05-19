@@ -19,5 +19,19 @@ for meal in meals:
         print("------------------------------")
 
 # Display full recipe details
+def display_recipe_details(data):
+
+    print("\n========== RECIPE DETAILS ==========")
+
+    meal = data.get("meal", {})
+
+    if not meal:
+        print("Recipe details not found.")
+        return
+
+    print(f"Name: {meal.get('strMeal')}")
+    print(f"Category: {meal.get('strCategory')}")
+    print(f"Area: {meal.get('strArea')}")
+    print(f"Tags: {meal.get('strTags')}")
 
 
