@@ -32,7 +32,10 @@ Course: ITNE352 Network Programming
 Group Members:
 
 Zainab Taha Mohammed Al-Naham, ID: 20230510, Account: @ZIXP01
+
 Rawan Read Ali, ID: 202310185, Account: @rawanread
+
+Group ID: A10
 
 ---
 ## Team Contributions
