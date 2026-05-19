@@ -12,3 +12,8 @@ search_by_name,
 from cache import load_reference_cache
 # Server settings
 HOST = "0.0.0.0"
+PORT = 12345
+# Load cache when server starts
+reference_cache = load_reference_cache()
+print("Reference cache loaded.")
+# Handle each connected client
