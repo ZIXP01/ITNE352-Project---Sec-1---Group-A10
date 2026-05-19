@@ -58,3 +58,9 @@ response = {  "meals": meals[:15]}
      # Random recipe
       elif request_type == "random_recipe":
      meals = random_recipe()
+response = {
+     "meals": meals
+                }
+# Full recipe details
+ elif request_type == "lookup_meal":
+   meal_id = request.get("meal_id")
