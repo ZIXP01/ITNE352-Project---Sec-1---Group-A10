@@ -96,5 +96,11 @@ display_recipe_details(details)
 response = receive_response(client_socket)
 display_recipe_list(response)
 meal_id = input("Enter Meal ID for full details: ")
+ send_request(client_socket, {
+                        "type": "meal_details",
+                        "meal_id": meal_id
+                    })
+details = receive_response(client_socket)
+display_recipe_details(details)
 
 
