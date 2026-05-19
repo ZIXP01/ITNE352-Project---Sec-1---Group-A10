@@ -21,4 +21,14 @@ def send_request(client_socket, request_data):
     request_json = json.dumps(request_data)
     client_socket.send(request_json.encode())
 
+# Receive response from server
+def receive_response(client_socket):
+    """
+    Receive data from server and
+    convert JSON back to dictionary.
+    """
+    response = client_socket.recv(65536).decode()
+    return json.loads(response)
+
+
 
