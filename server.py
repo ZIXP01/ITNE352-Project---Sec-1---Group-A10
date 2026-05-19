@@ -53,3 +53,8 @@ response = {  "meals": meals[:15]}
       elif request_type == "filter_ingredient":
        ingredient = request.get("ingredient")
        meals = filter_by_ingredient(ingredient)
+ response = {
+      "meals": meals[:15]}
+     # Random recipe
+      elif request_type == "random_recipe":
+     meals = random_recipe()
