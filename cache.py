@@ -17,4 +17,7 @@ def load_cache(self):
   # Save data into JSON file
   self.save_reference_file()
   print("Reference cache loaded successfully.")
+ def get_categories(self):
+  """ Fetch meal categories from API """
+ url = f"{self.base_url}/list.php?c=list"
 
