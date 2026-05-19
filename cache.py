@@ -52,4 +52,10 @@ return [
 print(f"Error loading ingredients: {error}")
 return []
  def save_reference_file(self):
-  """ Save reference cache into JSON file ingredients are limited to 50 entries in the file.  """
+  """ Save reference cache into JSON file ingredients are limited to 50 entries in the file  """
+ reference_data = {
+  "categories": self.categories,
+  "areas": self.areas,
+  # Save only first 50 ingredients in JSON file
+   "ingredients": self.ingredients[:50]
+        }  
