@@ -22,4 +22,8 @@ def handle_client(client_socket, address):
  try:
   # Receive client name
    client_name = client_socket.recv(1024).decode()
-  
+        print(f"Client connected: {client_name}")
+        while True:
+            # Receive request from client
+            request_data = client_socket.recv(4096).decode()
+            if not request_data:
