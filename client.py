@@ -75,8 +75,8 @@ display_recipe_list(response)
 
 meal_id = input("Enter Meal ID for full details: ")
    send_request(client_socket, {
-                        "type": "meal_details",
-                        "meal_id": meal_id
+               "type": "meal_details",
+                "meal_id": meal_id
                     })
 
 details = receive_response(client_socket)
@@ -85,20 +85,18 @@ display_recipe_details(details)
 # Filter by category
 
  elif recipe_choice == "2":
-
-                    category = input("Enter category: ")
-
-                    send_request(client_socket, {
-                        "type": "filter_category",
-                        "category": category
-                    })
+            category = input("Enter category: ")
+            send_request(client_socket, {
+              "type": "filter_category",
+              "category": category
+             })
 
 response = receive_response(client_socket)
 display_recipe_list(response)
 meal_id = input("Enter Meal ID for full details: ")
  send_request(client_socket, {
-                        "type": "meal_details",
-                        "meal_id": meal_id
+          "type": "meal_details",
+           "meal_id": meal_id
                     })
 details = receive_response(client_socket)
 display_recipe_details(details)
@@ -106,17 +104,17 @@ display_recipe_details(details)
 # Filter by area
 
 elif recipe_choice == "3":
-                    area = input("Enter area/cuisine: ")
-                    send_request(client_socket, {
-                        "type": "filter_area",
-                        "area": area
+        area = input("Enter area/cuisine: ")
+        send_request(client_socket, {
+           "type": "filter_area",
+            "area": area
                     })
 response = receive_response(client_socket)
 display_recipe_list(response)
 meal_id = input("Enter Meal ID for full details: ")
 send_request(client_socket, {
-                        "type": "meal_details",
-                        "meal_id": meal_id
+   "type": "meal_details",
+   "meal_id": meal_id
                     })
 details = receive_response(client_socket)
 display_recipe_details(details)
@@ -125,12 +123,11 @@ display_recipe_details(details)
 
 elif recipe_choice == "4":
 
-                    ingredient = input("Enter ingredient: ")
-
-                    send_request(client_socket, {
-                        "type": "filter_ingredient",
-                        "ingredient": ingredient
-                    })
+        ingredient = input("Enter ingredient: ")
+        send_request(client_socket, {
+           "type": "filter_ingredient",
+           "ingredient": ingredient
+         })
 response = receive_response(client_socket)
 display_recipe_list(response)
 
