@@ -190,7 +190,27 @@ display_areas(response)
 response = receive_response(client_socket)
 display_ingredients(response)
 
+# Back
 
+elif reference_choice == "4":
+    break
+  else:
+     print("Invalid option.\n")
 
+# Quit
+    
+        elif choice == "3":
+            send_request(client_socket, {
+                "type": "quit"
+            })
+
+print("Disconnected from server.")
+client_socket.close()
+break
+        else:
+            print("Invalid option.\n")
+            
+# Run program
+main()
 
 
