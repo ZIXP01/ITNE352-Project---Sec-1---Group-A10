@@ -1,0 +1,107 @@
+[
+  {
+    "strMeal": "Arroz con gambas y calamar",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/jc6oub1763196663.jpg",
+    "idMeal": "53147",
+    "strArea": "Spanish",
+    "strCountry": "Spain"
+  },
+  {
+    "strMeal": "Baked salmon with fennel & tomatoes",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/1548772327.jpg",
+    "idMeal": "52959",
+    "strArea": "British",
+    "strCountry": "United Kingdom"
+  },
+  {
+    "strMeal": "Bang bang prawn salad",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/4xcfai1763765676.jpg",
+    "idMeal": "53239",
+    "strArea": "Vietnamese",
+    "strCountry": "Vietnam"
+  },
+  {
+    "strMeal": "Barramundi with Moroccan spices",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/4o4wh11761848573.jpg",
+    "idMeal": "53103",
+    "strArea": "Australian",
+    "strCountry": "Australia"
+  },
+  {
+    "strMeal": "Cajun spiced fish tacos",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg",
+    "idMeal": "52819",
+    "strArea": "Mexican",
+    "strCountry": "Mexico"
+  },
+  {
+    "strMeal": "Clam, chorizo & white bean stew",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/92wbmf1763252334.jpg",
+    "idMeal": "53154",
+    "strArea": "Spanish",
+    "strCountry": "Spain"
+  },
+  {
+    "strMeal": "Egg Foo Young",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/47y6ii1765658818.jpg",
+    "idMeal": "53370",
+    "strArea": "Chinese",
+    "strCountry": "China"
+  },
+  {
+    "strMeal": "Escovitch Fish",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/1520084413.jpg",
+    "idMeal": "52944",
+    "strArea": "Jamaican",
+    "strCountry": "Jamaica"
+  },
+  {
+    "strMeal": "Fish fofos",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/a15wsa1614349126.jpg",
+    "idMeal": "53043",
+    "strArea": "Portuguese",
+    "strCountry": "Portugal"
+  },
+  {
+    "strMeal": "Fish pie",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg",
+    "idMeal": "52802",
+    "strArea": "British",
+    "strCountry": "United Kingdom"
+  },
+  {
+    "strMeal": "Fish Soup (Ukha)",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/7n8su21699013057.jpg",
+    "idMeal": "53079",
+    "strArea": "Russian",
+    "strCountry": "Russia"
+  },
+  {
+    "strMeal": "Fish Stew with Rouille",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/vptqpw1511798500.jpg",
+    "idMeal": "52918",
+    "strArea": "France",
+    "strCountry": "France"
+  },
+  {
+    "strMeal": "Fiskesuppe (Creamy Norwegian Fish Soup)",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/raqjbj1762773035.jpg",
+    "idMeal": "53122",
+    "strArea": "Norway",
+    "strCountry": "Norway"
+  },
+  {
+    "strMeal": "Fried calamari",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/yhi46r1763330279.jpg",
+    "idMeal": "53178",
+    "strArea": "Spanish",
+    "strCountry": "Spain"
+  },
+  {
+    "strMeal": "Gambas al ajillo",
+    "strMealThumb": "https://www.themealdb.com/images/media/meals/ze8uwg1763196123.jpg",
+    "idMeal": "53144",
+    "strArea": "Spanish",
+    "strCountry": "Spain"
+  }
+]
