@@ -17,3 +17,9 @@ PORT = 12345
 reference_cache = load_reference_cache()
 print("Reference cache loaded.")
 # Handle each connected client
+def handle_client(client_socket, address):
+ print(f"New connection from {address}")
+ try:
+  # Receive client name
+   client_name = client_socket.recv(1024).decode()
+  
