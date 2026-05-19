@@ -59,3 +59,9 @@ return []
   # Save only first 50 ingredients in JSON file
    "ingredients": self.ingredients[:50]
         }  
+ try:
+  with open("reference_A10.json", "w") as file:
+  json.dump(reference_data, file, indent=4)
+  print("reference_A10.json saved successfully.")
+  except Exception as error:
+  print(f"Error saving reference file: {error}")
