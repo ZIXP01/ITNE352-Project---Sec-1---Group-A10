@@ -111,3 +111,6 @@ while True:
     # Create thread for each client
     client_thread = threading.Thread(
        target=handle_client,
+args=(client_socket, address)
+    )
+    client_thread.start()
