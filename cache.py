@@ -51,3 +51,5 @@ return [
  except Exception as error:
 print(f"Error loading ingredients: {error}")
 return []
+ def save_reference_file(self):
+  """ Save reference cache into JSON file ingredients are limited to 50 entries in the file.  """
