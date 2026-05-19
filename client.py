@@ -81,3 +81,20 @@ meal_id = input("Enter Meal ID for full details: ")
 
 details = receive_response(client_socket)
 display_recipe_details(details)
+
+# Filter by category
+
+ elif recipe_choice == "2":
+
+                    category = input("Enter category: ")
+
+                    send_request(client_socket, {
+                        "type": "filter_category",
+                        "category": category
+                    })
+
+response = receive_response(client_socket)
+display_recipe_list(response)
+meal_id = input("Enter Meal ID for full details: ")
+
+
