@@ -53,4 +53,31 @@ def main():
 
         choice = main_menu()
 
+        # Browse Recipes
 
+ if choice == "1":
+
+            while True:
+                recipe_choice = recipes_menu()
+                if recipe_choice == "1":
+                    keyword = input("Enter recipe name keyword: ")
+
+ send_request(client_socket, {
+    "type": "search_name",
+     "keyword": keyword
+                    })
+
+ response = receive_response(client_socket)
+
+display_recipe_list(response)
+
+# Ask user for recipe ID
+
+meal_id = input("Enter Meal ID for full details: ")
+   send_request(client_socket, {
+                        "type": "meal_details",
+                        "meal_id": meal_id
+                    })
+
+details = receive_response(client_socket)
+display_recipe_details(details)
