@@ -17,3 +17,4 @@ def load_cache(self):
   # Save data into JSON file
   self.save_reference_file()
   print("Reference cache loaded successfully.")
+
