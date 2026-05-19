@@ -38,3 +38,7 @@ except Exception as error:
 print(f"Error loading areas: {error}")
  return []
 def get_ingredients(self):
+ """  Fetch meal ingredients from API  """
+url = f"{self.base_url}/list.php?i=list"
+try:
+ response = requests.get(url)
