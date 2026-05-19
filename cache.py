@@ -29,3 +29,8 @@ print(f"Error loading categories: {error}")
   return []
 def get_areas(self):
  """ Fetch meal areas/cuisines from API """
+ url = f"{self.base_url}/list.php?a=list"
+try:
+ response = requests.get(url)
+  data = response.json()
+return [item["strArea"] for item in data["meals"]]
