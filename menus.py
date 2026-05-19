@@ -8,4 +8,4 @@ def main_menu():
     print("2. Reference lists")
     print("3. Quit")
 
-return input("Choose option: ")
+return input("Choose option: ") 
